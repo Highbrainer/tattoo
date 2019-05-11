@@ -9,10 +9,6 @@
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
             name="com.jeevaneo.pdf.tattoo">
          <property
-               name="applicationCSS"
-               value="platform:/plugin/com.jeevaneo.pdf.tattoo/css/default.css">
-         </property>
-         <property
                name="appName"
                value="com.jeevaneo.pdf.tattoo">
          </property>

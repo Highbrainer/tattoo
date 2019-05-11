@@ -3,7 +3,6 @@
 
 <product name="com.jeevaneo.pdf.tattoo" id="com.jeevaneo.pdf.tattoo.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.2.qualifier" useFeatures="false" includeLaunchers="true">
 
-
    <configIni use="default">
    </configIni>
 
@@ -17,17 +16,15 @@
 
    <windowImages/>
 
-
    <launcher name="tattoo.exe">
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
 
-
    <vm>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
    </vm>
-
 
    <plugins>
       <plugin id="com.ibm.icu"/>
