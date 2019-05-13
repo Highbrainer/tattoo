@@ -2,7 +2,7 @@
 ;--------------------------------
 ; General Attributes
 
-!define VERSION "1.0.4"
+!define VERSION "1.0.5"
 
 Name "Pdf Tattoo for Maif"
 OutFile "download\tattoo-inst-v${VERSION}.exe"

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Tattoo
 Bundle-SymbolicName: com.jeevaneo.pdf.tattoo;singleton:=true
-Bundle-Version: 1.0.4.qualifier
+Bundle-Version: 1.0.5.qualifier
 Bundle-Activator: com.jeevaneo.pdf.tattoo.Activator
 Bundle-Vendor: JEEVANEO
 Require-Bundle: javax.inject;bundle-version="0.0.0",
