@@ -213,7 +213,7 @@ public class SamplePart {
 		TableItem item = new TableItem(tableViewer.getTable(), SWT.NONE);
 		item.setText(0, in);
 		try {
-			String out = in.replaceFirst("\\.pdf$", "-tattoo.pdf");
+			String out = in.replaceFirst("\\.pdf$", "-t.pdf");
 			pdfBox.tattoo(in, out);
 			item.setText(1, out);
 			item.setText(2, DateFormat.getTimeInstance(DateFormat.SHORT).format(new Date()));

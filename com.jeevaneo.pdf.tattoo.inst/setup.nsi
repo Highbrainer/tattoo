@@ -2,7 +2,7 @@
 ;--------------------------------
 ; General Attributes
 
-!define VERSION "1.0.2"
+!define VERSION "1.0.4"
 
 Name "Pdf Tattoo for Maif"
 OutFile "download\tattoo-inst-v${VERSION}.exe"
@@ -67,8 +67,7 @@ SectionEnd
 
 Section "Raccourci"
 ;    ReadEnvStr $USERPROFILE USERPROFILE
-	CreateShortCut "$%USERPROFILE%\Desktop\Tattoo.lnk" "$INSTDIR\tattoo\tattoo.exe" "" "$INSTDIR\tattoo\tattoo.exe" 2 SW_SHOWNORMAL \
-  ALT|SHIFT|F1 "Ajout du logo MAIF sur pdf"
+		CreateShortCut "$%USERPROFILE%\Desktop\Tattoo.lnk" "$INSTDIR\tattoo\tattoo.exe" "" "$INSTDIR\tattoo\tattoo.exe" 0 SW_SHOWNORMAL ALT|SHIFT|F1 "Ajout du logo MAIF sur pdf"
 SectionEnd
 ;--------------------------------
 ;Installer Functions

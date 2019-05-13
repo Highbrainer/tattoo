@@ -39,7 +39,7 @@ public class OpenHandler {
 //			return;
 //		}
 
-		String out = in.replaceFirst("\\.pdf$", "-tattoo.pdf");
+//		String out = in.replaceFirst("\\.pdf$", "-tattoo.pdf");
 
 		MPart mpart = (MPart) modelService.find("com.jeevaneo.pdf.tattoo.part.sample", app);
 		
