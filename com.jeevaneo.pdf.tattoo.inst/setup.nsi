@@ -59,8 +59,9 @@ Section "Telechargement" SecCommons
 
 SectionEnd
 
-Section "Raccourci"
-		CreateShortCut "$%USERPROFILE%\Desktop\Tattoo.lnk" "$INSTDIR\tattoo\tattoo.exe" "" "$INSTDIR\tattoo\tattoo.exe" 0 SW_SHOWNORMAL ALT|SHIFT|F1 "Ajout du logo MAIF sur pdf"
+Section "Raccourci" 
+    DetailPrint "Création d'un raccourci dans $DESKTOP"
+		CreateShortCut "$DESKTOP\Tattoo.lnk" "$INSTDIR\tattoo\tattoo.exe" "" "$INSTDIR\tattoo\tattoo.exe" 0 SW_SHOWNORMAL ALT|SHIFT|F1 "Ajout du logo MAIF sur pdf"
 SectionEnd
 ;--------------------------------
 ;Installer Functions
