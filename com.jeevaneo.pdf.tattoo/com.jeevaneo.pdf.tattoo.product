@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="com.jeevaneo.pdf.tattoo" id="com.jeevaneo.pdf.tattoo.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.6.qualifier" useFeatures="false" includeLaunchers="true">
+<product name="com.jeevaneo.pdf.tattoo" id="com.jeevaneo.pdf.tattoo.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.7.qualifier" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -18,7 +18,7 @@
 
    <launcher name="tattoo.exe">
       <win useIco="true">
-         <ico path="/com.jeevaneo.pdf.tattoo/butterfly2.ico"/>
+         <ico path="/com.jeevaneo.pdf.tattoo/butterfly.ico"/>
          <bmp/>
       </win>
    </launcher>
